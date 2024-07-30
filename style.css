@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5; /* SVG 배경색 */
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* 스킬을 가로로 배열 */
+  flex-wrap: wrap; /* 넘치면 다음 줄로 */
+  gap: 10px; /* 스킬 사이의 간격 */
+}
+
+li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* 스킬별 배경색 지정 */
+li:nth-child(1) {
+  background-color: #e34c26;
+  color: white;
+} /* HTML */
+li:nth-child(2) {
+  background-color: #264de4;
+  color: white;
+} /* CSS */
+li:nth-child(3) {
+  background-color: #f0db4f;
+  color: black;
+} /* JavaScript */
+li:nth-child(4) {
+  background-color: #61dbfb;
+  color: white;
+} /* React */
+
+.contact p {
+  margin: 5px 0;
+}
